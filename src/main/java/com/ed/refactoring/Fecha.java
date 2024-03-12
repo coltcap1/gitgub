@@ -23,7 +23,7 @@ public class Fecha {
      */
     public Fecha(int day, int month, int year) {
 
-        this.setDay(day);
+        this.setDay(day) ;
 
         this.setMonth(month);
 
