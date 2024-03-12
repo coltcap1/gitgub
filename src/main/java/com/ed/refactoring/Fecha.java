@@ -37,7 +37,7 @@ public class Fecha {
     }         
     
     //Created to a month cant have more that than it has        
-    public boolean dayMonth(){
+    public boolean dayMonth()  {
 
         int diasMes = 0;
 
