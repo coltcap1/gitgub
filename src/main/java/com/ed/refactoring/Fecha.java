@@ -8,11 +8,11 @@ package com.ed.refactoring;
  * @author DAW
  */
 public class Fecha {
-
+    //Specific day picked with number
     private int day;
-
+    //Specific month in number
     private int month;
-
+    //Pick a year
     private int year;
 
     /**
@@ -22,15 +22,15 @@ public class Fecha {
      * @param year 
      */
     public Fecha(int day, int month, int year) {
-
+        
         this.setDay(day) ;
-
+        
         this.setMonth(month);
-
+        
         this.setYear(year);
 
     }
-    
+    //@return true if the month is valid
     public boolean validMonth(){
         
         return getMonth() > 1 && getMonth() < 12;
